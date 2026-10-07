@@ -12,7 +12,7 @@ html, body {
     justify-content:Center;
     align-items:Center;
     flex-direction: column;
-    background-color:#414141;
+    background:linear-gradient(red, blue);
 }
 
 p {
@@ -37,4 +37,5 @@ button {
     background:white;
     cursor:pointer;
     color:#000;
+    background-color:aqua;
 } 
