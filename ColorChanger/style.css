@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content:Center;
+    align-items:Center;
+    flex-direction: column;
+    background-color:#414141;
+}
+
+p {
+    text-align:center;
+    font-size:90px;
+    display:inline block;
+} 
+
+.main {
+    height:500px;
+    width: 50%;
+    background-color:red;
+    border-radius:50px;
+}
+
+button {
+    display:block inline;
+    padding:50px;
+    font-size:50px;
+    border: 2px solid black;
+    border-radius:50px;
+    background:white;
+    cursor:pointer;
+    color:#000;
+} 
