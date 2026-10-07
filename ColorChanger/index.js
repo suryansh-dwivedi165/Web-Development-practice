@@ -6,9 +6,9 @@ let btn = document.querySelector("button");
 
 
 btn.addEventListener("click", () => {
-    p1 = Math.floor(Math.random() * 100);
-    p2 = Math.floor(Math.random() * 100);
-    p3 = Math.floor(Math.random() * 100);
+    p1 = Math.floor(Math.random() * 255);
+    p2 = Math.floor(Math.random() * 255);
+    p3 = Math.floor(Math.random() * 255);
     div.style.backgroundColor = `rgb(${p1}, ${p2}, ${p3})`;  
     id1.innerText = p1;   
     id2.innerText = p2;   
